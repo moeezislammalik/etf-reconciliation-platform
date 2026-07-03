@@ -1,0 +1,27 @@
+# Core
+pandas>=2.1.0
+numpy>=1.26.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Analytics
+scipy>=1.11.0
+
+# Dashboard
+streamlit>=1.29.0
+plotly>=5.18.0
+
+# Reporting
+openpyxl>=3.1.2
+reportlab>=4.0.7
+fpdf2>=2.7.6
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Utilities
+tqdm>=4.66.0
+faker>=22.0.0

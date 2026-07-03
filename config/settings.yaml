@@ -1,0 +1,74 @@
+funds:
+  - ticker: IVV
+    name: iShares Core S&P 500 ETF
+    benchmark: SPX
+    asset_class: Equity
+    inception_date: "2000-05-15"
+    expense_ratio: 0.0003
+    aum_billions: 450.0
+  - ticker: AGG
+    name: iShares Core U.S. Aggregate Bond ETF
+    benchmark: BAGG
+    asset_class: Fixed Income
+    inception_date: "2003-09-22"
+    expense_ratio: 0.0003
+    aum_billions: 95.0
+  - ticker: EEM
+    name: iShares MSCI Emerging Markets ETF
+    benchmark: MXEF
+    asset_class: Equity
+    inception_date: "2003-04-07"
+    expense_ratio: 0.0007
+    aum_billions: 22.0
+  - ticker: IWM
+    name: iShares Russell 2000 ETF
+    benchmark: RUT
+    asset_class: Equity
+    inception_date: "2000-05-22"
+    expense_ratio: 0.0019
+    aum_billions: 68.0
+  - ticker: TLT
+    name: iShares 20+ Year Treasury Bond ETF
+    benchmark: TLT
+    asset_class: Fixed Income
+    inception_date: "2002-07-22"
+    expense_ratio: 0.0015
+    aum_billions: 48.0
+
+sectors:
+  - Technology
+  - Healthcare
+  - Financials
+  - Consumer Discretionary
+  - Consumer Staples
+  - Energy
+  - Industrials
+  - Materials
+  - Utilities
+  - Real Estate
+  - Communication Services
+  - Information Technology
+
+security_types:
+  - Common Stock
+  - Corporate Bond
+  - Government Bond
+  - Treasury Note
+  - ADR
+  - ETF
+  - REIT
+
+reconciliation:
+  price_variance_threshold: 0.05
+  nav_tolerance_bps: 5
+  cash_break_threshold: 1000.00
+  tracking_error_threshold: 0.005
+  settlement_lag_days: 2
+
+analytics:
+  risk_free_rate: 0.045
+  trading_days_per_year: 252
+
+pipeline:
+  batch_size: 1000
+  max_workers: 4
